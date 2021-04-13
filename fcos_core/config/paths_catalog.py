@@ -7,6 +7,22 @@ import os
 class DatasetCatalog(object):
     DATA_DIR = "datasets"
     DATASETS = {
+        "daytime_bdd_2018_train_cocostyle": {
+            "img_dir": "bdd100k/images/100k/train",
+            "ann_file": "daytime_bdd100k_labels_images_det_coco_train.json"
+        },
+        "daytime_bdd_2018_val_cocostyle": {
+            "img_dir": "bdd100k/images/100k/val",
+            "ann_file": "daytime_bdd100k_labels_images_det_coco_val.json"
+        },
+        "night_bdd_2018_train_cocostyle": {
+            "img_dir": "bdd100k/images/100k/train",
+            "ann_file": "night_bdd100k_labels_images_det_coco_train.json"
+        },
+        "night_bdd_2018_val_cocostyle": {
+            "img_dir": "bdd100k/images/100k/val",
+            "ann_file": "night_bdd100k_labels_images_det_coco_val.json"
+        },
         "coco_2017_train": {
             "img_dir": "coco/train2017",
             "ann_file": "coco/annotations/instances_train2017.json"
